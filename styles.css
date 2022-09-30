@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration:none;
+  list-style:none;
+  box-sizing:border-box;
+}
+
+
+
+/* body {
+font-family: Josefin Sans;
+ yellow
+ black
+margin: 0px;
+} */
+
+div.scrollmenu {
+  background-color: #373737;
+  overflow: auto;
+  white-space: nowrap;
+  color: #FFFF5A80;
+  font-size: 20px;
+}
+
+li{
+  display: inline;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color:#FFFF5A;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
